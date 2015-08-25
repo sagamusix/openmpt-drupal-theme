@@ -1,0 +1,19 @@
+.comment-add, .comment-comments
+{
+    display: inline !important; /* inline-block doesn't work correctly */
+}
+
+#content h2
+{
+    max-width: 555px; /* 580px (layout) - 24px (icon) - 1px (shadow), necessary for IE7 */ 
+}
+
+#content h3
+{
+    max-width: 559px; /* 580px (layout) - 20px (icon) - 1px (shadow) */
+}
+
+#content h4
+{
+    max-width: 579px; /* 580px (layout) - 1px (shadow) */
+}

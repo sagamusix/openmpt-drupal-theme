@@ -1,0 +1,30 @@
+html *
+{
+    color: #000 !important;
+    background: none !important;
+    font-family: georgia, serif !important;
+    font-size: 11pt;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#primary-nav, #bar, #mission
+{
+    display: none;
+}
+
+#content
+{
+    width: 100%;
+}
+
+#content a
+{
+    text-decoration: underline;
+}
+
+#content a:after
+{
+	content: " ("attr(href)") ";
+	font-size:75%;
+}

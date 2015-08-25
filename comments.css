@@ -1,0 +1,87 @@
+/**
+ * Comments formatting
+ */
+
+#comments
+{
+    margin: 2em 0;
+}
+
+.comment
+{
+    padding: 15px;
+    margin: 22px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 3px 3px 3px #888;
+}
+
+.comment h4
+{
+    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid #bbb;
+    margin: 0 0 0.5em 0;
+}
+
+.comment h4 a
+{
+    display: block;
+    color: #444;
+    font-size: 14pt;
+}
+
+/*.comment.odd
+{
+    background: #e8e8e8;
+}*/
+
+.comment.author-comment
+{
+    background: #ffe7e6 url(img/sticky.png) no-repeat bottom right;
+    border-color: #d1837b;
+}
+
+.comment.comment-submitted
+{
+    font-size: 9pt;
+    font-style: italic;
+    color: #888;
+    padding: 0.5em 0;
+}
+
+.comment.comment-new
+{
+    background: #ffc;
+}
+
+.comment .new
+{
+    color: #b40;
+    font-weight: bold;
+}
+
+.comment .links
+{
+    font-size: 10pt;
+    float: right;
+}
+
+/* bubbles */
+
+.comment:before
+{
+    content: '';
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: -31px 0 0 0;
+    width: 100%;
+    height: 16px;
+    background: url(img/bubbles.png) no-repeat 0 0;
+}
+
+.comment.author-comment:before
+{
+    background-position: right -16px;
+}

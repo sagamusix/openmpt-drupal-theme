@@ -1,0 +1,31 @@
+/* I can't believe that I'm still fixing IE6 stuff. */
+body
+{
+    /* Center layout */
+    text-align: center;
+}
+
+#header, #main-content
+{
+    text-align: left;
+}
+
+#primary-nav a
+{
+    /* IE6 wants fixed width for menu buttons */
+    width: 93px;
+    overflow: hidden;
+    font-size:9pt;
+}
+
+#primary-nav .first a
+{
+    /* Tell everything twice to IE6 */
+    color: #fff !important;
+}
+
+#content
+{
+    /* fix big tables */
+    overflow: hidden;
+}

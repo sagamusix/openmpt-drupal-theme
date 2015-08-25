@@ -1,0 +1,19 @@
+name = OpenMPT
+description = OpenMPT theme.
+version = "1.0"
+core = 7.x
+stylesheets[all][] = reset.css
+stylesheets[all][] = style.css
+stylesheets[all][] = comments.css
+stylesheets[print][] = print.css
+stylesheets[screen][] = fancybox/source/jquery.fancybox.css
+scripts[] = fancybox/source/jquery.fancybox.pack.js
+
+regions[header] = Header
+regions[featured] = Featured
+regions[sidebar_first] = Right sidebar - first block
+regions[sidebar_second] = Right sidebar - second block
+regions[content] = Content
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[help] = Help

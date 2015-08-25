@@ -1,0 +1,38 @@
+#header-container
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd');
+}
+
+#footer
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#333333');
+}
+
+#content
+{
+    /* fix big tables */
+    overflow: auto;
+}
+
+table code
+{
+    white-space: normal;
+}
+
+/* fix text-shadows where it doesn't look ugly */
+
+#primary-nav a
+{
+    zoom: 1;
+	background-color: #333333;
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#333333)
+	        progid:DXImageTransform.Microsoft.DropShadow(OffX=-1, OffY=-1, Color=#222222);
+}
+
+#header #mission, #content h2, #content h3, #content h4
+{
+    zoom: 1;
+	background-color: #eeeeee;
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#eeeeee)
+	        progid:DXImageTransform.Microsoft.DropShadow(OffX=1, OffY=1, Color=#fffffff);
+}
