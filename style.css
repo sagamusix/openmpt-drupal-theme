@@ -908,6 +908,37 @@ ul#screenshots a
     display: none;
 }
 
+/**
+ * Check mark list
+ */
+
+ul.checklist
+{
+    list-style: none;
+    padding-left: 1.3em;
+}
+
+ul.checklist li
+{ 
+    padding-left: 1.3em;
+    text-indent: -1.3em;
+    padding-bottom: 0.25em;
+}
+
+ul.checklist li:before
+{
+    content: "✔";
+    color: #0c0;
+    padding-right: 0.5em;
+}
+
+ul.checklist li.cross:before
+{
+    content: "✘";
+    color: #c00;
+} 
+
+
 @media (max-width: 800px), handheld
 {
 
