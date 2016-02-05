@@ -27,7 +27,7 @@
     <form action="http://wiki.openmpt.org/index.php">
       <div id="search">
 		<input type="hidden" name="title" value="Special:Search"/>
-		<input type="text" id="search-field" name="search" title="Search the OpenMPT manual" value="Search..." onfocus="if(this.value=='Search...')this.value='';" onblur="if(this.value=='')this.value='Search...'" />
+		<input type="text" id="search-field" name="search" title="Search the OpenMPT manual" placeholder="Search..." />
         <input type="submit" id="search-submit" value="" />
       </div>
     </form>

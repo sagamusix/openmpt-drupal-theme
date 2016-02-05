@@ -217,12 +217,12 @@ code
 {
     margin-top: 20px;
     background: #eee;
-    background-image: linear-gradient(bottom, #ddd 20%, #eee 60%);
     background-image: -o-linear-gradient(bottom, #ddd 20%, #eee 60%);
     background-image: -moz-linear-gradient(bottom, #ddd 20%, #eee 60%);
     background-image: -webkit-linear-gradient(bottom, #ddd 20%, #eee 60%);
     background-image: -ms-linear-gradient(bottom, #ddd 20%, #eee 60%);
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #ddd), color-stop(0.6, #eee));
+    background-image: linear-gradient(to top, #ddd 20%, #eee 60%);
     border-bottom: 1px solid #aaa;
 }
 
@@ -330,6 +330,12 @@ code
     border-color: #555;
     background-color: #eee;
     box-shadow: 0px 0px 5px #888;
+}
+
+#header #search-field[placeholder]
+{
+    color: #555 !important;
+    opacity: 1;
 }
 
 #header #search-submit
@@ -591,12 +597,12 @@ div.node-sticky.node-teaser h2
     text-align: center;
     border-top: 1px solid #000;
     background: #222;
-    background-image: linear-gradient(bottom, #333 20%, #222 60%);
     background-image: -o-linear-gradient(bottom, #333 20%, #222 60%);
     background-image: -moz-linear-gradient(bottom, #333 20%, #222 60%);
     background-image: -webkit-linear-gradient(bottom, #333 20%, #222 60%);
     background-image: -ms-linear-gradient(bottom, #333 20%, #222 60%);
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #333), color-stop(0.6, #222));
+    background-image: linear-gradient(to top, #333 20%, #222 60%);
     color: #bbb;
     font-size: 9pt;
     line-height: 125%;

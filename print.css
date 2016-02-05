@@ -25,6 +25,6 @@ html *
 
 #content a:after
 {
-	content: " ("attr(href)") ";
-	font-size:75%;
+	content: " (" attr(href) ") ";
+	font-size: 75%;
 }
