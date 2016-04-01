@@ -24,10 +24,10 @@
 
     <div id="mission">
 
-    <form action="http://wiki.openmpt.org/index.php">
+    <form action="https://wiki.openmpt.org/index.php">
       <div id="search">
-		<input type="hidden" name="title" value="Special:Search"/>
-		<input type="text" id="search-field" name="search" title="Search the OpenMPT manual" placeholder="Search..." />
+        <input type="hidden" name="title" value="Special:Search"/>
+        <input type="text" id="search-field" name="search" title="Search the OpenMPT manual" placeholder="Search the OpenMPT manual..." />
         <input type="submit" id="search-submit" value="" />
       </div>
     </form>
